@@ -24,7 +24,7 @@ header {
 .menu {
     display: flex;
     align-items: center; /* Garante que os itens do menu fiquem centralizados verticalmente */
-    gap: 20px;
+    gap: 10px;
 }
 
 .menu ul {
