@@ -17,14 +17,14 @@ header {
 }
 
 .logo img {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
 .menu {
     display: flex;
     align-items: center; /* Garante que os itens do menu fiquem centralizados verticalmente */
-    gap: 10px;
+    gap: 30px;
 }
 
 .menu ul {
