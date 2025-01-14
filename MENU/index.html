@@ -4,26 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NovaWeb</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="src/fav-novaweb.png" type="image/x-icon">
-    <link rel="stylesheet" href="responsivo.css">
+
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    
+    <link rel="icon" href="./src/img/fav-novaweb.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="src/logo-novaweb.png" alt="Logo Neoweb">
+        <div class="header-container">
+    
+            <a href="#home">
+                <!-- <img src="./src/img/logo-novaweb.png" alt="Logo Neoweb"> -->
+                 <h1>NovaWeb</h1>
+            </a>
+    
+            <input type="checkbox" id="menu-hamburguer">
+    
+            <label for="menu-hamburguer" class="menu-toggle">
+                <div>
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+    
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="home">Home</a></li>
+                    <li><a href="#sobre" class="sobre">Sobre</a></li>
+                    <li><a href="#contato" class="contato">Contato</a></li>
+                    <li><a href="#blog" class="blog">Blog</a></li>
+                    <li><a href="#carreira" class="carreira">Carreira</a></li>
+                    <li><a href="#cadastre-se" class="cadastre-se">Cadastre-se</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav class="menu">
-            
-                <ul><a href="#" class="home">Home</a></ul>
-            <ul><a href="#" class="sobre">Sobre</a></ul>
-            <ul><a href="#" class="contato">Contato</a></ul>
-            <ul><a href="#" class="blog">Blog</a></ul>
-            <ul><a href="#" class="carreira">Carreira</a></ul>
-            <ul><a href="#" class="cadastre-se">Cadastre-se</a></ul>
-            
-        </nav>
     </header>
+    
+
+    <section class="sobre">1</section>
+    <section class="cadastre-se">2</section>
+    <section class="blog">3</section>
+    <section class="carreira">4</section>
+    <footer class="sobre">5</footer>
 </body>
 </html>

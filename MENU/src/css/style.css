@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+html{
+    font-family: 'Days One', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "hero hero hero hero"
+    "about about about about"
+    "services services services services"
+    "project project project project"
+    "footer footer footer footer";
+
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+header {
+    grid-area: header;
+    background-color: #fff;
+}
+
+.header .header-container{
+    display: flex;
+    align-items: center; /* Alinha verticalmente logo e menu */
+    justify-content: space-between; /* Espaço entre logo e menu */
+    padding: 20px 40px;
+    min-height: 75px;
+}
+
+.hero {
+    grid-area: hero;
+}
+
+.about {
+    grid-area: about;
+}
+
+.services {
+    grid-area: services;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.footer {
+    grid-area: footer;
+}
+
