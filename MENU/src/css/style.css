@@ -11,9 +11,9 @@ body{
     grid-template-areas: 
     "header header header header"
     "hero hero hero hero"
-    "about about about about"
-    "services services services services"
-    "project project project project"
+    "sobre sobre sobre sobre"
+    "servicos servicos servicos servicos"
+    "projetos projetos projetos projetos"
     "footer footer footer footer";
 
     grid-template-columns: repeat(4, 1fr);
@@ -34,23 +34,32 @@ header {
     min-height: 75px;
 }
 
+.header .header-container img{
+    width: 150px;
+    height: auto;
+}
+
 .hero {
     grid-area: hero;
 }
 
-.about {
-    grid-area: about;
+.sobre {
+    grid-area: sobre;
+
 }
 
-.services {
-    grid-area: services;
+.servicos {
+    grid-area: servicos;
 }
 
-.projects {
-    grid-area: projects;
+.projetos {
+    grid-area: projetos;
+
+
 }
 
 .footer {
     grid-area: footer;
+    
 }
 
